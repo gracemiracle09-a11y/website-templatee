@@ -1,0 +1,659 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>News HTML-5 Template </title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- <link rel="manifest" href="site.webmanifest"> -->
+   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+   <!-- Place favicon.ico in the root directory -->
+  
+  <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/slicknav.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="assets/css/themify-icons.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+   <header>
+      <!-- Header Start -->
+     <div class="header-area">
+          <div class="main-header ">
+              <div class="header-top black-bg d-none d-md-block">
+                 <div class="container">
+                     <div class="col-xl-12">
+                          <div class="row d-flex justify-content-between align-items-center">
+                              <div class="header-info-left">
+                                  <ul>     
+                                      <li><img src="assets/img/icon/header_icon1.png" alt="">34ºc, Sunny </li>
+                                      <li><img src="assets/img/icon/header_icon1.png" alt="">Tuesday, 18th June, 2019</li>
+                                  </ul>
+                              </div>
+                              <div class="header-info-right">
+                                  <ul class="header-social">    
+                                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                     <li> <a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                     </div>
+                 </div>
+              </div>
+              <div class="header-mid d-none d-md-block">
+                 <div class="container">
+                      <div class="row d-flex align-items-center">
+                          <!-- Logo -->
+                          <div class="col-xl-3 col-lg-3 col-md-3">
+                              <div class="logo">
+                                  <a href="index.html"><img src="data:image/webp;base64,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" alt=""></a>
+                              </div>
+                          </div>
+                          <div class="col-xl-9 col-lg-9 col-md-9">
+                              <div class="header-banner f-right ">
+                                  <img src="assets/img/hero/header_card.jpg" alt="">
+                              </div>
+                          </div>
+                      </div>
+                 </div>
+              </div>
+             <div class="header-bottom header-sticky">
+                  <div class="container">
+                      <div class="row align-items-center">
+                          <div class="col-xl-10 col-lg-10 col-md-12 header-flex">
+                              <!-- sticky -->
+                                  <div class="sticky-logo">
+                                      <a href="index.html"><img src="data:image/webp;base64,UklGRtoNAABXRUJQVlA4IM4NAAAQQQCdASq8ALsAPp1CnEilpCMiLnQ7WLATiWREQSCxunhg9z/VeXb7TmCvcegPOv/l/Uh+nfYA/WnpE+YDzcvRF/jPRk6iL0KOli/tf/fygPzr/osb0vjz3k/PYfwAnRdoRgt/b+Yukg0AOIl+3dG57JkXx0EpENAXmiUrkuGlNYcCnqPzd3REKIrz3S93GIwmk/OMQ+usPL8B+FXyQA5LsEOZP07VZyK8Sbzbx7/1ECioi5+4uy9cQFZX0zbP3FMZCWFLWT11xFe2esZDLMD0J5YKGJ3q1/lQaXv6jEHk8GLOv3M+eQcw/rCAljTw6hUgR/uU2TMn4qFeg02USfyC+IlM26BPJ/Q3QzhTxmd593C8vQXaUy0FxS/h3Rw9K2mWpUxq1yi6G6XIq0J/ip/Y2jXlpYAdrFoizaAjUbREONdqKqy4oWKQtMFlEcJe8O2N99FLJMgyAwU45mf/M2Zmk89GyEtouavaqrCTTWge2zVMzjMt5AdmnOfsyt63hoW96qGW483SaHUE1nyPcoL05XA1mnf5opKwvyz9z1dqtLp+ncE3JzB+uwr6gVLE5/8TjdZKzC2HOR/ikhMIG2RlGtSrIp0azevKrkIBoeTF+lTo92xIUIHsBKUNd4c8Mlbd55+mupQmfD9lEy3zc9w3UpppC79C5o2AFnhoIeT4mcQpfyGeUTve1fcZ9CTi/bGAAP77IYIfjsPuHCUa72MLa8qfeA5sCfFNBLnH/TfLPWRlqfa9iQvfvr0See5zFiR+LaLAdO+7sAxPkVhx+1b0N4NHHR50OBjgL/kEFiAflv+dA2VOWK5mtkh4x8VsQri//jjpyNti7NHfreWYYS6v2hEyR/pVgbZWJ0kV6hZHBwALw1oGHFmZ4cRgX1mhB3qvJA8TIdQVSmagEgNKqan9QNzALhuFmpnSinfDgf6uKpSsL/UKoVI0hqq+5d5j/mC78AAsZU9anslPbCqBNF59TQWudRtjZMfcVCG7VN7zEF6r2G78oGF2TShoG+NfiTfepp3kWslTK7b1YHfyCNmBcCqFWPxtQtkgRghyrnYxNzp54RCXCUDKySokaqwjoksmw/y6NA5XLZTZN1eZ6ybi2EhTTjINkO1ONKl1Kvet1DRToE/kAM1yazRJ63bHWMvOcu0TJwwpCTxB23ce9WqbpeXsTHKe702Xu2lrlPCAHrIQq8SBLHdeGuVGvV2qpOKZdiAla1fEjqMfb95TgLOoW2+3YnXWFqu8Djl75GI33ZZXcUU+LKQ8z619zXeFMMEDwIqvpnxif1cUmGn7tfSa38ELyR7CZJVUB27zdY4X0vQ9BBOVCxYuztztoPmhRbccIaBKV8/WJL10heEoyRgB3aRDrwJlkU1/pt2CXU58UoK58dn5ICFUJ7eRbdQKdgSHnvUcijRYAhtIRnF9kGlyRgLCWF6OmvaavLtRkJXttnkvdDoQNaTc0WkBveJgAMnbFSceojuaypPIVH9UPwd5w8cMIXLSGsArIWXB4HLaIEKo33QScNg1j1evvEWUReqGre7Xv/8uGN3TzKQfkttaGK8Whlzc37pBUP8xwDbhyzOAWqqW3SCg5vt0GAtLNMeBKrbqAMoUCAIvucS4rkn8cyL8YUA20bx0Ccy29mfy4SJqPeffFcaziqadGjvQhbT5La5WJsbrZOJVMYZ1ug1PHY7v8yfv+jRQK8qj/oy2+J9GucIMDye1sHbiYvOcHftlfkhk72eLBcLPtemt66OyHqRbEy0XMQetIDt+UKj7XLAogyeHAOgaldBUFHcT7simAYTNF1IZp9KaQqzxFbQVkEGItsu90BQvzNgoHSDAqLuDLqGLiVzt8IgcdR9gsVP160uoOGpXBqjGOOYsmlZ8PLBmuKMkNVKSyLDrEeLJiYahFmTrnFK+w59vnA5SeZSxyGCX4R0T8waTonDBr8HTLqH5l28QrGhGx7gXGqSBcmDhV9/gP1py4MzGIAmicA2anYgXjqeSFw795ww3M7jl8oX+egY07bTDtuL5rco3nxMc8NpZg2NfGnR6kZgsoBa7iTMoU6Ig6Dw1gd7geFCfkVyosDdfrbI8jSTfeA3weMGj7pr/1ONiLn8cAc7fT5gdNOdCrBSTNlIWiqg2fjIC0Is2+mWAjBLyOcpNJvwvy0S+mDjF3GiqeKIXgFUqEcw8rcPor3xeNwby1NwHCBqNgaq54l9HRg+XvjnpSS4mfmKKgHZwQhEiH1AkiPubdCmQR0Xn1HY+Z25ep1WYxf2Mgf62rQkKOaBlqWcul7JKh3iQhJ9MLqh6hrP5Yuz1XMNtS8BQ7wGOpJrwIgdSZD7OnBrwTXXXTEBYjwPH5tSE0U4xPVT+hBZ8kfKdU9c9rdcv0MFrGLb+miA2+WjU1UpMehSyREFlg7XWQdyudC82PjuQs5rEz/rtNXzKbxDYKBly9uVTF+YVgb4Ms5CO144bCC+MYEBFohGIy7W8VztvTH+/DORM/Hiuf31nuGmwHiE6ppp4yAJ15JA/cwBVnHToROGwcoVKhqZB5snqGM2FO/bgc+UAVMp0eV7QqYmbhAqIzi/x3tzX9ekMlqA5hQbotcARIkAWlzD3nsEITO4g+ruB3IBTX/UcibJvvhYUEpXdzJUlx8hV1SkLhWZfPwu0SYm67TNm0nmK1pxs8bBabA0BxRrAGRdsPG8sP94swT+2eEu/dpf9XgrGb79rIyhvfWg8MbO4RXp/w8yZ5A0PgR6JT/ZduuI1rG9ST/UNbwE9wUmRlsQZ10bJYEZfcJwoYTgAh8Yr5mfVME6qu89c7hEDTmYTe7fNsG7IcIKLGHvuAT5VbSW3KUx+5mS1ttk0A/OJanCiOlMZzuPinYBvYlMeVGwhIV74JScARsUkM2u1ZQEyK9NKewGft0UcCZbmaJ68YHnwiz48dDYpPcCw3kX4k+g81yYFanvio15LslxQLrowvew0P/TdFUcb2IpzlHR+k7tkvmcFDYgr/Biee/YMt4nSSSXDnO/6P6S7/zYY11fdu/uCt/ZhlGT3Ai5vLKSBSAKtCp+MPPcO3JO/aTYqr4PgV6AaE1hW1kmz3lHgaBxsMRsz2BUonOJLjVmeemlm/6HrtjFEu51UQVPVaaUtIhp10QaIimz3G+atcETTaIjl78kYDOme8b+oEdntVdw0QcCCCL+8Yf9M4hl7NsO0N4P34wG+j6eEfkQBoy/tX2KuGuJx23tEr7AzupH9qRhQztii6ZhRE6SJxT42sm86UeEfYYK2j68sVjo4YcIhaSA0GeR/yR8YT8+usn5/ooJnbrQnsFb30NkPMCV9rcFAX/XbcP0U/CHjms3Z7+nq5FeusyEK+yRrGx9k9HxzTVR+vus9aLPomve5578TnFGoYvG0Q3kDBMJwSbDhNqJFyzNfuZEiV10Urqrz75iqJfs+/9sAebcRmQdcCsoIWu42RiZ2FQqpilncUIwnPuulGtIu6pYrDZoy1te0QgQ18FikEMCie17ywHZctqeEXExqlZouFROHkGM+aG+zAOSlgc7QnRC3uLo2Ra3cmO8qXOd2sIuW2ETdZCMxD1D6uGeTYsVdrCTKEbpfEFywwFYNS8leyiNp5Jpmb0sKZvvqgTDjb1pS1x4iM/GV5TGKUurodBeY0v1Ids/EX1eoMN+Q6dQWaSySfCd73fy7rX0gdqd5yCH3mxmlLBwmUYnDDwQoHn52i9s7mi8xfKXnJd7St86qevgNdFbWMt03nOspdOC4Lum/0jYl8nKWJTmDnQZ4tEMdbcvv69SeuITnaou2DYIDCYMqIkXpMZmRT7+llIPv0LE1yc3KskhibP7HrltVGys0u2z5VEllwv4/8cS4hm8VxmOCO8SQ90KtxKuKCdmX3B8dXPyaACqGUEB3cYPFVgOErpQ8hQlzJO0L0QMel9siObxAYR8LdoGPLSlshxy3gvLZhvKAeWc+OjCxX4hZrd9RrFz8Gz84u+mDmYAmBbMKRiN9ThzXdFDbjW5hzwV1jvMytnV1qMi4m/2i6te00xKRJsaNlYGne4XpJVb4/qgurCnn98h8eAA0EpY3qPxtDJ1gugu0NULkmKHbHDFvM2NyhTJQa83E4I1F3ltXPvZL6qzPzTiBjr7Rg5gg+6qHczF9jLfBY3vk7N1Fqo9/g5vG0CjrO2cHMVpcpEXG/5dy3o2DQh5jfqddf/IErpLyW40GceSWMb8TW07bg2p0NDvUP3BndKK5mOx11sViPYpPtyvWEsqFrwnb/FsZrICAKo8BcE0cIjvmCrmbqBi+o5arpfgclf3irmo0zoNL7L989K3ZTtCrh6BbWGr0gOtMnucq1GlS3167Tjbym6zEc0Y55kexhnr5G0jO1DLNPyJyPSahA1t3gEAhwd9oTxD//Pr/jG4QLeWM/Wr0x7wClcKZVcJdJSoKihbqL7eOGwYwDWTUymSB+0G2rpXhxUNJvRfkkva2w77gtRHsZTSnGgV2t+gC00totp6D95cfZT2cF+pHz6uQhHboNfKKSP6MKZaAvdV2qrekFaW/TJo5VJ0Lbqk1uGFITg9d/DfV1LXpWvRLRlCZu7BLye1QVBFhn5E0ZRSZrDgfqBsWA/+T33xGjbqJFpj238ROlrYAzztv7e0YHZ62esV9UmVEakcAm6SIV4faQPmS/jSOQajIB0FzGZzhOpXyjQeBEKNFjb1nO/5zO3NKWNaBzTdBTMsSxa/7BnAtmpQQAAA=" alt=""></a>
+                                  </div>
+                              <!-- Main-menu -->
+                              <div class="main-menu d-none d-md-block">
+                                  <nav>                  
+                                      <ul id="navigation">    
+                                          <li><a href="index.html">Home</a></li>
+                                          <li><a href="categori.html">Blog</a></li>
+                                          <li><a href="about.html">About</a></li>
+                                          <li><a href="latest_news.html">Latest News</a></li>
+                                          <li><a href="contact.html">Latest Songs</a></li>
+          
+                                              <ul class="submenu">
+                                                  <li><a href="elements.html">Element</a></li>
+                                                  <li><a href="blog.html">Blog</a></li>
+                                                  <li><a href="single-blog.html">Blog Details</a></li>
+                                                  <li><a href="details.html">Categori Details</a></li>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </nav>
+                              </div>
+                          </div>             
+                          <div class="col-xl-2 col-lg-2 col-md-4">
+                              <div class="header-right-btn f-right d-none d-lg-block">
+                                  <i class="fas fa-search special-tag"></i>
+                                  <div class="search-box">
+                                      <form action="#">
+                                          <input type="text" placeholder="Search">
+                                          
+                                      </form>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- Mobile Menu -->
+                          <div class="col-12">
+                              <div class="mobile_menu d-block d-md-none"></div>
+                          </div>
+                      </div>
+                  </div>
+             </div>
+          </div>
+     </div>
+      <!-- Header End -->
+  </header>
+     
+   <!--================Blog Area =================-->
+   <section class="blog_area single-post-area section-padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-8 posts-list">
+               <div class="single-post">
+                  <div class="feature-img">
+                     <img class="img-fluid" src="https://xonomax.com/cdn/shop/files/752494.jpg?v=1729866835&width=416 alt="">
+                  </div>
+                  <div class="blog_details">
+                     <h2>XG's cocona came out as...
+                     </h2>
+                     <ul class="blog-info-link mt-3 mb-4">
+                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
+                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                     </ul>
+                     <p class="excert">
+                       In January 2026, the music group XG officially announced that they were changing
+                        what their name stands for. Since their debut in 2022, XG had stood for “Xtraordinary Girls,”
+                         but the group revealed that they would now call themselves “Xtraordinary Genes.” The decision 
+                         reflected a shift in how they wanted to represent themselves as they all entered their twenties
+                          and continued growing creatively and personally. The new meaning emphasizes the core creativity
+                           and individuality that fuels their music and identity, rather than focusing on the word “Girls.” 
+                     </p>
+                     <div class="quote-wrapper">
+                        <div class="quotes">
+                          The name change also came shortly after one of the members,
+                           Cocona, publicly shared that they are transmasculine and nonbinary, 
+                           which highlighted how the original name didn’t fully represent the group
+                            as it is now. By adopting “Genes” instead of “Girls,” XG aimed to make 
+                            their name more inclusive while keeping the same acronym fans already know. 
+                            This rebranding was more than just a new label — it marked a new era for the
+                             group as they prepared to release their first full-length album THE CORE and 
+                             embark on a world tour early in 2026.
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="navigation-top">
+                  <div class="d-sm-flex justify-content-between text-center">
+                     <p class="like-info"><span class="align-middle"><i class="fa fa-heart"></i></span> Lily and 4
+                        people like this</p>
+                     <div class="col-sm-4 text-center my-2 my-sm-0">
+                        <!-- <p class="comment-count"><span class="align-middle"><i class="fa fa-comment"></i></span> 06 Comments</p> -->
+                     </div>
+                     <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                     </ul>
+                  </div>
+                  <div class="navigation-area">
+                     <div class="row">
+                        <div
+                           class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
+                           <div class="thumb">
+                              <a href="#">
+                                 <img class="img-fluid" src="assets/img/post/preview.png" alt="">
+                              </a>
+                           </div>
+                           <div class="arrow">
+                              <a href="#">
+                                 <span class="lnr text-white ti-arrow-left"></span>
+                              </a>
+                           </div>
+                           <div class="detials">
+                              <p>Prev Post</p>
+                              <a href="#">
+                                 <h4>Space The Final Frontier</h4>
+                              </a>
+                           </div>
+                        </div>
+                        <div
+                           class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
+                           <div class="detials">
+                              <p>Next Post</p>
+                              <a href="#">
+                                 <h4>Telescopes 101</h4>
+                              </a>
+                           </div>
+                           <div class="arrow">
+                              <a href="#">
+                                 <span class="lnr text-white ti-arrow-right"></span>
+                              </a>
+                           </div>
+                           <div class="thumb">
+                              <a href="#">
+                                 <img class="img-fluid" src="assets/img/post/next.png" alt="">
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="blog-author">
+                  <div class="media align-items-center">
+                     <img src="assets/img/blog/author.png" alt="">
+                     <div class="media-body">
+                        <a href="#">
+                           <h4>Harvard milan</h4>
+                        </a>
+                        <p>Second divided from form fish beast made. Every of seas all gathered use saying you're, he
+                           our dominion twon Second divided from</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="comments-area">
+                  <h4>05 Comments</h4>
+                  <div class="comment-list">
+                     <div class="single-comment justify-content-between d-flex">
+                        <div class="user justify-content-between d-flex">
+                           <div class="thumb">
+                              <img src="assets/img/comment/comment_1.png" alt="">
+                           </div>
+                           <div class="desc">
+                              <p class="comment">
+                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
+                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
+                              </p>
+                              <div class="d-flex justify-content-between">
+                                 <div class="d-flex align-items-center">
+                                    <h5>
+                                       <a href="#">Emilly Blunt</a>
+                                    </h5>
+                                    <p class="date">December 4, 2017 at 3:12 pm </p>
+                                 </div>
+                                 <div class="reply-btn">
+                                    <a href="#" class="btn-reply text-uppercase">reply</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="comment-list">
+                     <div class="single-comment justify-content-between d-flex">
+                        <div class="user justify-content-between d-flex">
+                           <div class="thumb">
+                              <img src="assets/img/comment/comment_2.png" alt="">
+                           </div>
+                           <div class="desc">
+                              <p class="comment">
+                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
+                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
+                              </p>
+                              <div class="d-flex justify-content-between">
+                                 <div class="d-flex align-items-center">
+                                    <h5>
+                                       <a href="#">Emilly Blunt</a>
+                                    </h5>
+                                    <p class="date">December 4, 2017 at 3:12 pm </p>
+                                 </div>
+                                 <div class="reply-btn">
+                                    <a href="#" class="btn-reply text-uppercase">reply</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="comment-list">
+                     <div class="single-comment justify-content-between d-flex">
+                        <div class="user justify-content-between d-flex">
+                           <div class="thumb">
+                              <img src="assets/img/comment/comment_3.png" alt="">
+                           </div>
+                           <div class="desc">
+                              <p class="comment">
+                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
+                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
+                              </p>
+                              <div class="d-flex justify-content-between">
+                                 <div class="d-flex align-items-center">
+                                    <h5>
+                                       <a href="#">Emilly Blunt</a>
+                                    </h5>
+                                    <p class="date">December 4, 2017 at 3:12 pm </p>
+                                 </div>
+                                 <div class="reply-btn">
+                                    <a href="#" class="btn-reply text-uppercase">reply</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="comment-form">
+                  <h4>Leave a Reply</h4>
+                  <form class="form-contact comment_form" action="#" id="commentForm">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="form-group">
+                              <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="9"
+                                 placeholder="Write Comment"></textarea>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="form-group">
+                              <input class="form-control" name="name" id="name" type="text" placeholder="Name">
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="form-group">
+                              <input class="form-control" name="email" id="email" type="email" placeholder="Email">
+                           </div>
+                        </div>
+                        <div class="col-12">
+                           <div class="form-group">
+                              <input class="form-control" name="website" id="website" type="text" placeholder="Website">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <button type="submit" class="button button-contactForm btn_1 boxed-btn">Send Message</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="blog_right_sidebar">
+                  <aside class="single_sidebar_widget search_widget">
+                     <form action="#">
+                        <div class="form-group">
+                           <div class="input-group mb-3">
+                              <input type="text" class="form-control" placeholder='Search Keyword'
+                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Keyword'">
+                              <div class="input-group-append">
+                                 <button class="btns" type="button"><i class="ti-search"></i></button>
+                              </div>
+                           </div>
+                        </div>
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                           type="submit">Search</button>
+                     </form>
+                  </aside>
+                  <aside class="single_sidebar_widget post_category_widget">
+                     <h4 class="widget_title">Category</h4>
+                     <ul class="list cat-list">
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Resaurant food</p>
+                              <p>(37)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Travel news</p>
+                              <p>(10)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Modern technology</p>
+                              <p>(03)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Product</p>
+                              <p>(11)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Inspiration</p>
+                              <p>(21)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Health Care</p>
+                              <p>(21)</p>
+                           </a>
+                        </li>
+                     </ul>
+                  </aside>
+                  <aside class="single_sidebar_widget popular_post_widget">
+                     <h3 class="widget_title">Recent Post</h3>
+                     <div class="media post_item">
+                        <img src="assets/img/post/post_1.png" alt="post">
+                        <div class="media-body">
+                           <a href="single-blog.html">
+                              <h3>From life was you fish...</h3>
+                           </a>
+                           <p>January 12, 2019</p>
+                        </div>
+                     </div>
+                     <div class="media post_item">
+                        <img src="assets/img/post/post_2.png" alt="post">
+                        <div class="media-body">
+                           <a href="single-blog.html">
+                              <h3>The Amazing Hubble</h3>
+                           </a>
+                           <p>02 Hours ago</p>
+                        </div>
+                     </div>
+                     <div class="media post_item">
+                        <img src="assets/img/post/post_3.png" alt="post">
+                        <div class="media-body">
+                           <a href="single-blog.html">
+                              <h3>Astronomy Or Astrology</h3>
+                           </a>
+                           <p>03 Hours ago</p>
+                        </div>
+                     </div>
+                     <div class="media post_item">
+                        <img src="assets/img/post/post_4.png" alt="post">
+                        <div class="media-body">
+                           <a href="single-blog.html">
+                              <h3>Asteroids telescope</h3>
+                           </a>
+                           <p>01 Hours ago</p>
+                        </div>
+                     </div>
+                  </aside>
+                  <aside class="single_sidebar_widget tag_cloud_widget">
+                     <h4 class="widget_title">Tag Clouds</h4>
+                     <ul class="list">
+                        <li>
+                           <a href="#">project</a>
+                        </li>
+                        <li>
+                           <a href="#">love</a>
+                        </li>
+                        <li>
+                           <a href="#">technology</a>
+                        </li>
+                        <li>
+                           <a href="#">travel</a>
+                        </li>
+                        <li>
+                           <a href="#">restaurant</a>
+                        </li>
+                        <li>
+                           <a href="#">life style</a>
+                        </li>
+                        <li>
+                           <a href="#">design</a>
+                        </li>
+                        <li>
+                           <a href="#">illustration</a>
+                        </li>
+                     </ul>
+                  </aside>
+                  <aside class="single_sidebar_widget instagram_feeds">
+                     <h4 class="widget_title">Instagram Feeds</h4>
+                     <ul class="instagram_row flex-wrap">
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="assets/img/post/post_5.png" alt="">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="assets/img/post/post_6.png" alt="">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="assets/img/post/post_7.png" alt="">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="assets/img/post/post_8.png" alt="">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="assets/img/post/post_9.png" alt="">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="assets/img/post/post_10.png" alt="">
+                           </a>
+                        </li>
+                     </ul>
+                  </aside>
+                  <aside class="single_sidebar_widget newsletter_widget">
+                     <h4 class="widget_title">Newsletter</h4>
+                     <form action="#">
+                        <div class="form-group">
+                           <input type="email" class="form-control" onfocus="this.placeholder = ''"
+                              onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
+                        </div>
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                           type="submit">Subscribe</button>
+                     </form>
+                  </aside>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--================ Blog Area end =================-->
+
+   <footer>
+      <!-- Footer Start-->
+      <div class="footer-area footer-padding fix">
+           <div class="container">
+               <div class="row d-flex justify-content-between">
+                   <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12">
+                       <div class="single-footer-caption">
+                           <div class="single-footer-caption">
+                               <!-- logo -->
+                               <div class="footer-logo">
+                                   <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                               </div>
+                               <div class="footer-tittle">
+                                   <div class="footer-pera">
+                                       <p>Suscipit mauris pede for con sectetuer sodales adipisci for cursus fames lectus tempor da blandit gravida sodales  Suscipit mauris pede for con sectetuer sodales adipisci for cursus fames lectus tempor da blandit gravida sodales  Suscipit mauris pede for sectetuer.</p>
+                                   </div>
+                               </div>
+                               <!-- social -->
+                               <div class="footer-social">
+                                   <a href="#"><i class="fab fa-twitter"></i></a>
+                                   <a href="#"><i class="fab fa-instagram"></i></a>
+                                   <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xl-3 col-lg-3 col-md-4  col-sm-6">
+                       <div class="single-footer-caption mt-60">
+                           <div class="footer-tittle">
+                               <h4>Newsletter</h4>
+                               <p>Heaven fruitful doesn't over les idays appear creeping</p>
+                               <!-- Form -->
+                               <div class="footer-form" >
+                                   <div id="mc_embed_signup">
+                                       <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                       method="get" class="subscribe_form relative mail_part">
+                                           <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
+                                           class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                                           onblur="this.placeholder = ' Email Address '">
+                                           <div class="form-icon">
+                                           <button type="submit" name="submit" id="newsletter-submit"
+                                           class="email_icon newsletter-submit button-contactForm"><img src="assets/img/logo/form-iocn.png" alt=""></button>
+                                           </div>
+                                           <div class="mt-10 info"></div>
+                                       </form>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                       <div class="single-footer-caption mb-50 mt-60">
+                           <div class="footer-tittle">
+                               <h4>Instagram Feed</h4>
+                           </div>
+                           <div class="instagram-gellay">
+                               <ul class="insta-feed">
+                                   <li><a href="#"><img src="assets/img/post/instra1.jpg" alt=""></a></li>
+                                   <li><a href="#"><img src="assets/img/post/instra2.jpg" alt=""></a></li>
+                                   <li><a href="#"><img src="assets/img/post/instra3.jpg" alt=""></a></li>
+                                   <li><a href="#"><img src="assets/img/post/instra4.jpg" alt=""></a></li>
+                                   <li><a href="#"><img src="assets/img/post/instra5.jpg" alt=""></a></li>
+                                   <li><a href="#"><img src="assets/img/post/instra6.jpg" alt=""></a></li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+      <!-- footer-bottom aera -->
+      <div class="footer-bottom-area">
+          <div class="container">
+              <div class="footer-border">
+                   <div class="row d-flex align-items-center justify-content-between">
+                       <div class="col-lg-6">
+                           <div class="footer-copy-right">
+                               <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                           </div>
+                       </div>
+                       <div class="col-lg-6">
+                           <div class="footer-menu f-right">
+                               <ul>                             
+                                   <li><a href="#">Terms of use</a></li>
+                                   <li><a href="#">Privacy Policy</a></li>
+                                   <li><a href="#">Contact</a></li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+              </div>
+          </div>
+      </div>
+      <!-- Footer End-->
+  </footer>
+   
+<!-- JS here -->
+	
+		<!-- All JS Custom Plugins Link Here here -->
+      <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		<script src="./assets/js/bootstrap.min.js"></script>
+      <script src="./assets/js/popper.min.js"></script>
+      <script src="./assets/js/bootstrap.min.js"></script>
+	   <!-- Jquery Mobile Menu -->
+      <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+      <script src="./assets/js/owl.carousel.min.js"></script>
+      <script src="./assets/js/slick.min.js"></script>
+      <!-- Date Picker -->
+      <script src="./assets/js/gijgo.min.js"></script>
+		<!-- One Page, Animated-HeadLin -->
+      <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+      <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+		<!-- Scrollup, nice-select, sticky -->
+      <script src="./assets/js/jquery.scrollUp.min.js"></script>
+      <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
+        
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Jquery Plugins, main Jquery -->	
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+        
+</body>
+
+</html>

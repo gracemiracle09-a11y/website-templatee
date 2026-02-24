@@ -1,0 +1,925 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>News HTML-5 Template </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+		<!-- CSS here -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="assets/css/ticker-style.css">
+            <link rel="stylesheet" href="assets/css/flaticon.css">
+            <link rel="stylesheet" href="assets/css/slicknav.css">
+            <link rel="stylesheet" href="assets/css/animate.min.css">
+            <link rel="stylesheet" href="assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="assets/css/themify-icons.css">
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <link rel="stylesheet" href="assets/css/nice-select.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+
+   <body>
+       
+    <!-- Preloader Start -->
+    <!-- <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Preloader Start -->
+
+    <header>
+        <!-- Header Start -->
+       <div class="header-area">
+            <div class="main-header ">
+                <div class="header-top black-bg d-none d-md-block">
+                   <div class="container">
+                       <div class="col-xl-12">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="header-info-left">
+                                    <ul>     
+                                        <li><img src="assets/img/icon/header_icon1.png" alt="">34ºc, Sunny </li>
+                                        <li><img src="assets/img/icon/header_icon1.png" alt="">Tuesday, 27th june, 2025</li>
+                                    </ul>
+                                </div>
+                                <div class="header-info-right">
+                                    <ul class="header-social">    
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                       <li> <a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                       </div>
+                   </div>
+                </div>
+                <div class="header-mid d-none d-md-block">
+                   <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-3 col-lg-3 col-md-3">
+                                <div class="logo">
+                                    <a href="index.html"><img src="data:image/webp;base64,UklGRtoNAABXRUJQVlA4IM4NAAAQQQCdASq8ALsAPp1CnEilpCMiLnQ7WLATiWREQSCxunhg9z/VeXb7TmCvcegPOv/l/Uh+nfYA/WnpE+YDzcvRF/jPRk6iL0KOli/tf/fygPzr/osb0vjz3k/PYfwAnRdoRgt/b+Yukg0AOIl+3dG57JkXx0EpENAXmiUrkuGlNYcCnqPzd3REKIrz3S93GIwmk/OMQ+usPL8B+FXyQA5LsEOZP07VZyK8Sbzbx7/1ECioi5+4uy9cQFZX0zbP3FMZCWFLWT11xFe2esZDLMD0J5YKGJ3q1/lQaXv6jEHk8GLOv3M+eQcw/rCAljTw6hUgR/uU2TMn4qFeg02USfyC+IlM26BPJ/Q3QzhTxmd593C8vQXaUy0FxS/h3Rw9K2mWpUxq1yi6G6XIq0J/ip/Y2jXlpYAdrFoizaAjUbREONdqKqy4oWKQtMFlEcJe8O2N99FLJMgyAwU45mf/M2Zmk89GyEtouavaqrCTTWge2zVMzjMt5AdmnOfsyt63hoW96qGW483SaHUE1nyPcoL05XA1mnf5opKwvyz9z1dqtLp+ncE3JzB+uwr6gVLE5/8TjdZKzC2HOR/ikhMIG2RlGtSrIp0azevKrkIBoeTF+lTo92xIUIHsBKUNd4c8Mlbd55+mupQmfD9lEy3zc9w3UpppC79C5o2AFnhoIeT4mcQpfyGeUTve1fcZ9CTi/bGAAP77IYIfjsPuHCUa72MLa8qfeA5sCfFNBLnH/TfLPWRlqfa9iQvfvr0See5zFiR+LaLAdO+7sAxPkVhx+1b0N4NHHR50OBjgL/kEFiAflv+dA2VOWK5mtkh4x8VsQri//jjpyNti7NHfreWYYS6v2hEyR/pVgbZWJ0kV6hZHBwALw1oGHFmZ4cRgX1mhB3qvJA8TIdQVSmagEgNKqan9QNzALhuFmpnSinfDgf6uKpSsL/UKoVI0hqq+5d5j/mC78AAsZU9anslPbCqBNF59TQWudRtjZMfcVCG7VN7zEF6r2G78oGF2TShoG+NfiTfepp3kWslTK7b1YHfyCNmBcCqFWPxtQtkgRghyrnYxNzp54RCXCUDKySokaqwjoksmw/y6NA5XLZTZN1eZ6ybi2EhTTjINkO1ONKl1Kvet1DRToE/kAM1yazRJ63bHWMvOcu0TJwwpCTxB23ce9WqbpeXsTHKe702Xu2lrlPCAHrIQq8SBLHdeGuVGvV2qpOKZdiAla1fEjqMfb95TgLOoW2+3YnXWFqu8Djl75GI33ZZXcUU+LKQ8z619zXeFMMEDwIqvpnxif1cUmGn7tfSa38ELyR7CZJVUB27zdY4X0vQ9BBOVCxYuztztoPmhRbccIaBKV8/WJL10heEoyRgB3aRDrwJlkU1/pt2CXU58UoK58dn5ICFUJ7eRbdQKdgSHnvUcijRYAhtIRnF9kGlyRgLCWF6OmvaavLtRkJXttnkvdDoQNaTc0WkBveJgAMnbFSceojuaypPIVH9UPwd5w8cMIXLSGsArIWXB4HLaIEKo33QScNg1j1evvEWUReqGre7Xv/8uGN3TzKQfkttaGK8Whlzc37pBUP8xwDbhyzOAWqqW3SCg5vt0GAtLNMeBKrbqAMoUCAIvucS4rkn8cyL8YUA20bx0Ccy29mfy4SJqPeffFcaziqadGjvQhbT5La5WJsbrZOJVMYZ1ug1PHY7v8yfv+jRQK8qj/oy2+J9GucIMDye1sHbiYvOcHftlfkhk72eLBcLPtemt66OyHqRbEy0XMQetIDt+UKj7XLAogyeHAOgaldBUFHcT7simAYTNF1IZp9KaQqzxFbQVkEGItsu90BQvzNgoHSDAqLuDLqGLiVzt8IgcdR9gsVP160uoOGpXBqjGOOYsmlZ8PLBmuKMkNVKSyLDrEeLJiYahFmTrnFK+w59vnA5SeZSxyGCX4R0T8waTonDBr8HTLqH5l28QrGhGx7gXGqSBcmDhV9/gP1py4MzGIAmicA2anYgXjqeSFw795ww3M7jl8oX+egY07bTDtuL5rco3nxMc8NpZg2NfGnR6kZgsoBa7iTMoU6Ig6Dw1gd7geFCfkVyosDdfrbI8jSTfeA3weMGj7pr/1ONiLn8cAc7fT5gdNOdCrBSTNlIWiqg2fjIC0Is2+mWAjBLyOcpNJvwvy0S+mDjF3GiqeKIXgFUqEcw8rcPor3xeNwby1NwHCBqNgaq54l9HRg+XvjnpSS4mfmKKgHZwQhEiH1AkiPubdCmQR0Xn1HY+Z25ep1WYxf2Mgf62rQkKOaBlqWcul7JKh3iQhJ9MLqh6hrP5Yuz1XMNtS8BQ7wGOpJrwIgdSZD7OnBrwTXXXTEBYjwPH5tSE0U4xPVT+hBZ8kfKdU9c9rdcv0MFrGLb+miA2+WjU1UpMehSyREFlg7XWQdyudC82PjuQs5rEz/rtNXzKbxDYKBly9uVTF+YVgb4Ms5CO144bCC+MYEBFohGIy7W8VztvTH+/DORM/Hiuf31nuGmwHiE6ppp4yAJ15JA/cwBVnHToROGwcoVKhqZB5snqGM2FO/bgc+UAVMp0eV7QqYmbhAqIzi/x3tzX9ekMlqA5hQbotcARIkAWlzD3nsEITO4g+ruB3IBTX/UcibJvvhYUEpXdzJUlx8hV1SkLhWZfPwu0SYm67TNm0nmK1pxs8bBabA0BxRrAGRdsPG8sP94swT+2eEu/dpf9XgrGb79rIyhvfWg8MbO4RXp/w8yZ5A0PgR6JT/ZduuI1rG9ST/UNbwE9wUmRlsQZ10bJYEZfcJwoYTgAh8Yr5mfVME6qu89c7hEDTmYTe7fNsG7IcIKLGHvuAT5VbSW3KUx+5mS1ttk0A/OJanCiOlMZzuPinYBvYlMeVGwhIV74JScARsUkM2u1ZQEyK9NKewGft0UcCZbmaJ68YHnwiz48dDYpPcCw3kX4k+g81yYFanvio15LslxQLrowvew0P/TdFUcb2IpzlHR+k7tkvmcFDYgr/Biee/YMt4nSSSXDnO/6P6S7/zYY11fdu/uCt/ZhlGT3Ai5vLKSBSAKtCp+MPPcO3JO/aTYqr4PgV6AaE1hW1kmz3lHgaBxsMRsz2BUonOJLjVmeemlm/6HrtjFEu51UQVPVaaUtIhp10QaIimz3G+atcETTaIjl78kYDOme8b+oEdntVdw0QcCCCL+8Yf9M4hl7NsO0N4P34wG+j6eEfkQBoy/tX2KuGuJx23tEr7AzupH9qRhQztii6ZhRE6SJxT42sm86UeEfYYK2j68sVjo4YcIhaSA0GeR/yR8YT8+usn5/ooJnbrQnsFb30NkPMCV9rcFAX/XbcP0U/CHjms3Z7+nq5FeusyEK+yRrGx9k9HxzTVR+vus9aLPomve5578TnFGoYvG0Q3kDBMJwSbDhNqJFyzNfuZEiV10Urqrz75iqJfs+/9sAebcRmQdcCsoIWu42RiZ2FQqpilncUIwnPuulGtIu6pYrDZoy1te0QgQ18FikEMCie17ywHZctqeEXExqlZouFROHkGM+aG+zAOSlgc7QnRC3uLo2Ra3cmO8qXOd2sIuW2ETdZCMxD1D6uGeTYsVdrCTKEbpfEFywwFYNS8leyiNp5Jpmb0sKZvvqgTDjb1pS1x4iM/GV5TGKUurodBeY0v1Ids/EX1eoMN+Q6dQWaSySfCd73fy7rX0gdqd5yCH3mxmlLBwmUYnDDwQoHn52i9s7mi8xfKXnJd7St86qevgNdFbWMt03nOspdOC4Lum/0jYl8nKWJTmDnQZ4tEMdbcvv69SeuITnaou2DYIDCYMqIkXpMZmRT7+llIPv0LE1yc3KskhibP7HrltVGys0u2z5VEllwv4/8cS4hm8VxmOCO8SQ90KtxKuKCdmX3B8dXPyaACqGUEB3cYPFVgOErpQ8hQlzJO0L0QMel9siObxAYR8LdoGPLSlshxy3gvLZhvKAeWc+OjCxX4hZrd9RrFz8Gz84u+mDmYAmBbMKRiN9ThzXdFDbjW5hzwV1jvMytnV1qMi4m/2i6te00xKRJsaNlYGne4XpJVb4/qgurCnn98h8eAA0EpY3qPxtDJ1gugu0NULkmKHbHDFvM2NyhTJQa83E4I1F3ltXPvZL6qzPzTiBjr7Rg5gg+6qHczF9jLfBY3vk7N1Fqo9/g5vG0CjrO2cHMVpcpEXG/5dy3o2DQh5jfqddf/IErpLyW40GceSWMb8TW07bg2p0NDvUP3BndKK5mOx11sViPYpPtyvWEsqFrwnb/FsZrICAKo8BcE0cIjvmCrmbqBi+o5arpfgclf3irmo0zoNL7L989K3ZTtCrh6BbWGr0gOtMnucq1GlS3167Tjbym6zEc0Y55kexhnr5G0jO1DLNPyJyPSahA1t3gEAhwd9oTxD//Pr/jG4QLeWM/Wr0x7wClcKZVcJdJSoKihbqL7eOGwYwDWTUymSB+0G2rpXhxUNJvRfkkva2w77gtRHsZTSnGgV2t+gC00totp6D95cfZT2cF+pHz6uQhHboNfKKSP6MKZaAvdV2qrekFaW/TJo5VJ0Lbqk1uGFITg9d/DfV1LXpWvRLRlCZu7BLye1QVBFhn5E0ZRSZrDgfqBsWA/+T33xGjbqJFpj238ROlrYAzztv7e0YHZ62esV9UmVEakcAm6SIV4faQPmS/jSOQajIB0FzGZzhOpXyjQeBEKNFjb1nO/5zO3NKWNaBzTdBTMsSxa/7BnAtmpQQAAA=" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-9 col-lg-9 col-md-9">
+                                <div class="header-banner f-right ">
+                                    <img src="https://th.bing.com/th/id/OIP.B3wH6q5rD0lAZM67ClP8aAHaCe?w=333&h=116&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+               <div class="header-bottom header-sticky">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xl-10 col-lg-10 col-md-12 header-flex">
+                                <!-- sticky -->
+                                    <div class="sticky-logo">
+                                        <a href="index.html"><img src="data:image/webp;base64,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" alt=""></a>
+                                    </div>
+                                <!-- Main-menu -->
+                                <div class="main-menu d-none d-md-block">
+                                    <nav>                  
+                                        <ul id="navigation">    
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="single-blog.html">Blog</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="latest_news.html">Latest News</a></li>
+                                            <li><a href="contact.html">Latest Songs</a></li>
+                                                <ul class="submenu">
+                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="single-blog.html">Blog Details</a></li>
+                                                    <li><a href="details.html">Categori Details</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>             
+                            <div class="col-xl-2 col-lg-2 col-md-4">
+                                <div class="header-right-btn f-right d-none d-lg-block">
+                                    <i class="fas fa-search special-tag"></i>
+                                    <div class="search-box">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search">
+                                            
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-md-none"></div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+       </div>
+        <!-- Header End -->
+    </header>
+
+    <main>
+    <!-- Trending Area Start -->
+    <div class="trending-area fix">
+        <div class="container">
+            <div class="trending-main">
+                <!-- Trending Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="trending-tittle">
+                            <strong>Trending now</strong>
+                            <!-- <p>Rem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                            <div class="trending-animated">
+                                <ul id="js-news" class="js-hidden">
+                                    <li class="news-item">The group that was formed by a survival show, ZB1 is disbanding.</li>
+                                    <li class="news-item">Xtraordinary Girls has officially rebrand to <i>Xtraordinary Genes.</i></li>
+                                    <li class="news-item">New K-pop group, LNGSHOT is taking over social media!.</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- Trending Top -->
+                        <div class="trending-top mb-30">
+                            <div class="trend-top-img">
+                                <img src="https://th.bing.com/th/id/OIF.hqxAh9m0c91dAVKuoaGNzQ?w=323&h=155&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+                                <div class="trend-top-cap">
+                                    <span>LNGSHOT</span>
+                                    <h2><a href="details.html">THE NEWEST K-POP GROUP<br> taking over the world in a matter of days!</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Trending Bottom -->
+                        <div class="trending-bottom">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                <div class="single-bottom mb-35">
+                                    <div class="trend-bottom-img mb-30">
+                                        <img src="https://th.bing.com/th/id/OIP.vp-TWdKDnZWPL5S4CnF-uAHaJQ?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                                    </div>
+                                    <div class="trend-bottom-cap">
+                                        <span class="color1">K-DRAMA</span>
+                                        <h4><a href="details.html">A new drama is hot with the title.. "Can Love Be Translated?"</a></h4>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="single-bottom mb-35">
+                                        <div class="trend-bottom-img mb-30">
+                                            <img src="https://th.bing.com/th/id/OIP.PeLriVCWn9EQboXk3_LfWwHaJ4?w=203&h=271&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+                                        </div>
+                                        <div class="trend-bottom-cap">
+                                            <span class="color2">K-FOOD</span>
+                                            <h4><h4><a href="details.html">Kimchi fried rice is still a bomb according to the whole world</a></h4></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="single-bottom mb-35">
+                                        <div class="trend-bottom-img mb-30">
+                                            <img src="https://cms.disway.id/uploads/f0ae2f8a85f2a21b36676ce6e4a50559.jpeg" alt="">
+                                        </div>
+                                        <div class="trend-bottom-cap">
+                                            <span class="color3">GLOBAL</span>
+                                            <h4><a href="details.html"> Katseye went to the grammy's!</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Riht content -->
+                    <div class="col-lg-4">
+                        <div class="trand-right-single d-flex">
+                            <div class="trand-right-img">
+                                <img src="https://th.bing.com/th/id/OIP.fm2G4TYE4Tpe7ySVknARsAHaHa?w=172&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+                            </div>
+                            <div class="trand-right-cap">
+                                <span class="color1">CONCERT</span>
+                                <h4><a href="details.html">ATEEZ just recently had a concert in Indonesia</a></h4>
+                            </div>
+                        </div>
+                        <div class="trand-right-single d-flex">
+                            <div class="trand-right-img">
+                                <img src="https://th.bing.com/th/id/OIP.Pa53HNNsZvjHu0aXcM8u8wHaHa?w=197&h=198&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+                            </div>
+                            <div class="trand-right-cap">
+                                <span class="color3">CRITICS</span>
+                                <h4><a href="details.html">Straykids are getting more hate because their song is too noisy?</a></h4>
+                            </div>
+                        </div>
+                        <div class="trand-right-single d-flex">
+                            <div class="trand-right-img">
+                                <img src="https://th.bing.com/th/id/OIP.gzT_xF3ywekfaO4iGUVgfQHaHa?w=203&h=203&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+                            </div>
+                            <div class="trand-right-cap">
+                                <span class="color2">CRITICS</span>
+                                <h4><a href="details.html">XG's cocona came out as...</a></h4>
+                            </div>
+                        </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Trending Area End -->
+    <!--   Weekly-News start -->
+    <div class="weekly-news-area pt-50">
+        <div class="container">
+           <div class="weekly-wrapper">
+                <!-- section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle mb-30">
+                            <h3>Weekly Top News</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="weekly-news-active dot-style d-flex dot-style">
+                            <div class="weekly-single">
+                                <div class="weekly-img">
+                                    <img src="https://media.wired.com/photos/69027c4042a73fc665080490/master/w_2560%2Cc_limit/251008_Wired_EJAE0252_HIRES_02.jpg">
+                                </div>
+                                <div class="weekly-caption">
+                                    <span class="color1">GRAMMY</span>
+                                    <h4><a href="#">South Korea is celebrating a historic win at the Grammys — the song “Golden” from the Netflix animated film KPop Demon Hunters earned the first Grammy ever for a K-pop–related work in the Best Song for Visual Media category</a></h4>
+                                </div>
+                            </div> 
+                            <div class="weekly-single active">
+                                <div class="weekly-img">
+                                        <img src="https://scontent.fcgk27-1.fna.fbcdn.net/v/t39.30808-6/472670727_122174189648063789_8983004913684014087_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LW3RRNOaFmcQ7kNvwFG5Lko&_nc_oc=AdnXlSbfG5KN2zD5VhzZc8xqY6a6Q8gIEDHOCEcoP3Bht2xPSQJpfzfiWiJgQrucGRY&_nc_zt=23&_nc_ht=scontent.fcgk27-1.fna&_nc_gid=lVWhFqcERq-ggxzfDJzy9w&oh=00_Afusq37qPJLJKEtLInvDwMvrRFxBwZt6TCeAMTjD4cXj1A&oe=6990B83C" alt="">
+                                </div>
+                                <div class="weekly-caption">
+                                    <span class="color1">K-dance</span>
+                                    <h4><a href="#">BADA LEE and FUNKY Y collabed after not being seen together on camera for years.</a></h4>
+                                </div>
+                            </div>
+                            <div class="weekly-single">
+                                <div class="weekly-img">
+                                        <img src="https://dispatch.cdnser.be/cms-content/uploads/2024/08/12/4a2982a0-621c-41dc-a68e-b9637a30f457.jpg" alt="">
+                                </div>
+                                <div class="weekly-caption">
+                                    <span class="color1">COMEBACKS</span>
+                                    <h4><a href="#">Major group comebacks lined up for February 2026 include big names like ZEROBASEONE and BLACKPINK among others.</a></h4>
+                                </div>
+                            </div>
+                            <div class="weekly-single">
+                                <div class="weekly-img">
+                                    <img src="https://cassette.sphdigital.com.sg/image/harpersbazaar/037d2f5247eab1b361f86c3f0aac7ecc368132064045474ee0ccde56e8b2c30e?w=660&q=85s" alt="">
+                                </div>
+                                <div class="weekly-caption">
+                                    <span class="color1">RUMOR</span>
+                                    <h4><a href="#">Is there going to be WSWF 2?</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>           
+    <!-- End Weekly-News -->
+   <!-- Whats New Start -->
+    <section class="whats-news-area pt-50 pb-20">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-8">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="section-tittle mb-30">
+                            <h3>Whats New</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <div class="properties__button">
+                            <!--Nav Button  -->                                            
+                            <nav>                                                                     
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
+                                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">K-DRAMA</a>
+                                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">K-POP</a>
+                                    <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">NEWS</a>
+                                 
+                                   
+                                </div>
+                            </nav>
+                            <!--End Nav Button  -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Nav Card -->
+                        <div class="tab-content" id="nav-tabContent">
+                            <!-- card one -->
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">           
+                                <div class="whats-news-caption">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://tse4.mm.bing.net/th/id/OIP.VZBmdzQcGSUJytVJp2f86AHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">LNGSHOT</span>
+                                                    <h4><a href="#">THE NEWEST K-POP GROUP taking over the world in a matter of days!</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://th.bing.com/th/id/OIP.vp-TWdKDnZWPL5S4CnF-uAHaJQ?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">K-DRAMA</span>
+                                                    <h4><a href="#">A new drama is hot with the title.. "Can Love Be Translated?"</a></h4>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://th.bing.com/th/id/OIP.PeLriVCWn9EQboXk3_LfWwHaJ4?w=203&h=271&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">K-FOOD</span>
+                                                    <h4><a href="#">Kimchi fried rice is still a bomb according to the whole world</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://i.mydramalist.com/3oP7Pv_4c.jpg?v=1" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <span class="color1">K-SERIES</span>
+                                                    <h4><a href="#">This series is absolutely going viral</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card two -->
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <div class="whats-news-caption">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://th.bing.com/th/id/OIP.vp-TWdKDnZWPL5S4CnF-uAHaJQ?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <h4><a href="#">Can Love Be Translated?</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://blog.amikom.ac.id/wp-content/uploads/2026/01/Sinopsis-Drakor-No-Tail-to-Tell-Lengkap-Dengan-Jadwal-Tayang-Pemain-dan-Link-Streaming-Nonton-Sub-Indo1.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <h4><a href="#">No Tail to Tell</a></h4>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/id/f/f9/Dear_X_seri_televisi_poster.png" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <h4><a href="#">Dear X</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://cdn.rri.co.id/berita/Manokwari/o/1745879162404-2181b619-8708-44f1-a28f-81539cc0f490/dene6wu31j35sm6.jpeg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <h4><a href="#">When Life Gives You Tangerines</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card three -->
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                <div class="whats-news-caption">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://m.media-amazon.com/images/M/MV5BNjFjYTg1ODgtM2Y3OS00NGVlLWJlYTItNTFjOGU1NTUwOGY4XkEyXkFqcGc@._V1_QL75_UX380_CR0,28,380,380_.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                 
+                                                    <h4><a href="#">SPAGHETI</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://i.etsystatic.com/63486284/r/il/5766ca/7619463859/il_570xN.7619463859_fwkv.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+    
+                                                    <h4><a href="#">INTERNET GIRL</a></h4>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://i.pinimg.com/236x/56/45/c7/5645c719376cb69dcfc7ad82fea4bc36.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                          
+                                                    <h4><a href="#">KNIFE</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0B1X70vqUFwwoxNoq9qDLBkzTho6GVCI7_uOOyqXNz3ZfxpGvX7WgLhZtYLB2CeggYsmkqdJxIomDOgKQ03l46qWeOQN4Q5iIlgaHxNixdMc8PLI8mQW1bBZRvDg8i78OHraP-ckTo-I2TurFG2VcDq9PQi4as07KkRHkJP-khwIJEyrDJsQp0c9vS5Jo/s2500/05_%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%87%E1%85%B3_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B2%202%E1%84%8C%E1%85%B5%E1%86%B8%20REVIVE+%20%E1%84%8E%E1%85%A2%E1%86%AF%E1%84%85%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%A5%E1%84%89%E1%85%B3%20%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A6%E1%86%B8%E1%84%90%E1%85%B3%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%A9_%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%20(%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3).jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                                    <h4><a href="#">BANG</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card fure -->
+                            <div class="tab-pane fade" id="nav-last" role="tabpanel" aria-labelledby="nav-last-tab">
+                                <div class="whats-news-caption">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://m.media-amazon.com/images/I/919XvEz0faL._AC_UF894,1000_QL80_.jpg" alt="">
+                                                </div>
+                                                <div class="what-cap">
+ 
+                                                    <h4><a href="#">ATEEZ just recently had a concert in Indonesia</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://scontent.fcgk27-1.fna.fbcdn.net/v/t39.30808-6/472670727_122174189648063789_8983004913684014087_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LW3RRNOaFmcQ7kNvwFG5Lko&_nc_oc=AdnXlSbfG5KN2zD5VhzZc8xqY6a6Q8gIEDHOCEcoP3Bht2xPSQJpfzfiWiJgQrucGRY&_nc_zt=23&_nc_ht=scontent.fcgk27-1.fna&_nc_gid=lVWhFqcERq-ggxzfDJzy9w&oh=00_Afusq37qPJLJKEtLInvDwMvrRFxBwZt6TCeAMTjD4cXj1A&oe=6990B83C" alt="">
+                                                </div>
+                                                <div class="what-cap">
+   
+                                                    <h4><a href="#">BADA LEE and FUNKY Y collabed after not being seen together on camera for years.</a></h4>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://preview.redd.it/250115-stray-kids-5th-fanmeeting-skz-5clock-group-teaser-v0-4qvrwwzus3de1.jpeg?width=640&crop=smart&auto=webp&s=bf83d56b98147db45520cde71d73c9886528e93e" alt="">
+                                                </div>
+                                                <div class="what-cap">
+
+                                                    <h4><a href="#">Straykids are getting more hate because their song is too noisy?</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="single-what-news mb-100">
+                                                <div class="what-img">
+                                                    <img src="https://xonomax.com/cdn/shop/files/752494.jpg?v=1729866835&width=416" alt="">
+                                                </div>
+                                                <div class="what-cap">
+                                               <h4><a href="#">XG's cocona came out as...</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    <!-- End Nav Card -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <!-- Section Tittle -->
+                
+                <div class="section-tittle mb-40">
+                    <h3>Follow Us</h3>
+                </div>
+                <!-- Flow Socail -->
+                <div class="single-follow mb-45">
+                    <div class="single-box">
+                        <div class="follow-us d-flex align-items-center">
+                            <div class="follow-social">
+                                <a href="#"><img src="assets/img/news/icon-fb.png" alt=""></a>
+                            </div>
+                            <div class="follow-count">  
+                                <span>1.320.567.984</span>
+                                <p>Fans</p>
+                            </div>
+                        </div> 
+                        <div class="follow-us d-flex align-items-center">
+                            <div class="follow-social">
+                                <a href="#"><img src="assets/img/news/icon-tw.png" alt=""></a>
+                            </div>
+                            <div class="follow-count">
+                                <span>1.320.567.984</span>
+                                <p>Fans</p>
+                            </div>
+                        </div>
+                            <div class="follow-us d-flex align-items-center">
+                            <div class="follow-social">
+                                <a href="#"><img src="assets/img/news/icon-ins.png" alt=""></a>
+                            </div>
+                            <div class="follow-count">
+                                <span>1.320.567.984</span>
+                                <p>Fans</p>
+                            </div>
+                        </div>
+                        <div class="follow-us d-flex align-items-center">
+                            <div class="follow-social">
+                                <a href="#"><img src="assets/img/news/icon-yo.png" alt=""></a>
+                            </div>
+                            <div class="follow-count">
+                                <span>1.320.567.984</span>
+                                <p>Fans</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- New Poster -->
+                <div class="news-poster d-none d-lg-block">
+                    <img src="https://i.pinimg.com/736x/e6/53/30/e653309d06f814f3665950bbdaee162b.jpg" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Whats New End -->
+    <!--   Weekly2-News start -->
+    <div class="weekly2-news-area  weekly2-pading gray-bg">
+        <div class="container">
+            <div class="weekly2-wrapper">
+                <!-- section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle mb-30">
+                            <h3>KPOP FEBRUARY NEWS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="weekly2-news-active dot-style d-flex dot-style">
+                            <div class="weekly2-single">
+                                <div class="weekly2-img">
+                                    <img src="https://image.koreaboo.com/2026/02/manon-3.jpg" alt="">
+                                </div>
+                                <div class="weekly2-caption">
+                                    <p>23 FEB 2026</p>
+                                    <h4><a href="#">KATSEYE Daniela’s Father Supposedly Berates Manon Again, Sparking New Suspicion</a></h4>
+                                </div>
+                            </div> 
+                            <div class="weekly2-single">
+                                <div class="weekly2-img">
+                                    <img src="https://image.koreaboo.com/2026/02/KatseyeInstaComments-FI.jpg" alt="">
+                                </div>
+                                <div class="weekly2-caption">
+                                    <p>23 FEB 2026</p>
+                                    <h4><a href="#">KATSEYE Members’ Instagram Posts Bombarded With Scathing Criticism Amid Manon’s Hiatus Controversy</a></h4>
+                                </div>
+                            </div> 
+                            <div class="weekly2-single">
+                                <div class="weekly2-img">
+                                    <img src="https://image.koreaboo.com/2026/02/chaeon.jpg" alt="">
+                                </div>
+                                <div class="weekly2-caption">
+                                    <p>2 HOURS AGO</p>
+                                    <h4><a href="#">K-Pop Idol Reveals The Secret Behind How They End Video Fan Calls</a></h4>
+                                </div>
+                            </div>
+                             <div class="weekly2-single">
+                                <div class="weekly2-img">
+                                    <img src="https://image.koreaboo.com/2026/02/jennie-minji.jpg" alt="">
+                                </div>
+                                <div class="weekly2-caption">
+                                    <p>3 HOURS AGO</p>
+                                    <h4><a href="#">Alleged Insider Claims Of BLACKPINK’s Jennie Being “Jealous” Of NewJeans’ Minji Go Viral</a></h4>
+                                </div>
+                            </div> 
+                             <div class="weekly2-single">
+                                <div class="weekly2-img">
+                                    <img src="https://image.koreaboo.com/2026/02/I-wanted-to-sleep-with-her.-37-2.jpg" alt="">
+                                </div>
+                                <div class="weekly2-caption">
+                                    <p>6 HOURS AGO</p>
+                                    <h4><a href="#">“Squid Game” Actor Denies Sexual Assault, Makes Controversial Statement On Mutual Consent</a></h4>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>           
+    <!-- End Weekly-News -->
+    <!-- Start Youtube -->
+    <div class="youtube-area video-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="video-items-active">
+                        <div class="video-items text-center">
+                            <iframe src="https://www.youtube.com/embed/CicQIuG8hBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-items text-center">
+                            <iframe  src="https://www.youtube.com/embed/rIz00N40bag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-items text-center">
+                            <iframe src="https://www.youtube.com/embed/CONfhrASy44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+                        <div class="video-items text-center">
+                            <iframe src="https://www.youtube.com/embed/lq6fL2ROWf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         
+                        </div>
+                        <div class="video-items text-center">
+                            <iframe src="https://www.youtube.com/embed/0VxlQlacWV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-info">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="video-caption">
+                            <div class="top-caption">
+
+                            </div>
+                            <div class="bottom-caption">
+                                <h2>STRAYKIDS THE DOMINATE EXPERIENCE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="testmonial-nav text-center">
+                            <div class="single-video">
+                                <iframe  src="https://www.youtube.com/watch?v=Ob7idoW8CBM&utm_source=chatgpt.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video-intro">
+
+                                </div>
+                            </div>
+                            <div class="single-video">
+                                <iframe  src="https://www.youtube.com/embed/rIz00N40bag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video-intro">
+
+                                </div>
+                            </div>
+                            <div class="single-video">
+                                <iframe src="https://www.youtube.com/embed/CONfhrASy44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video-intro">
+
+                                </div>
+                            </div>
+                            <div class="single-video">
+                                <iframe src="https://www.youtube.com/embed/lq6fL2ROWf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video-intro">
+
+                                </div>
+                            </div>
+                            <div class="single-video">
+                                <iframe src="https://www.youtube.com/embed/0VxlQlacWV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="video-intro">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- End Start youtube -->
+    <!--  Recent Articles start -->
+    <div class="recent-articles">
+        <div class="container">
+           <div class="recent-wrapper">
+                <!-- section Tittle -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle mb-30">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="recent-active dot-style d-flex dot-style">
+                            <div class="single-recent mb-100">
+                                <div class="what-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>           
+    <!--Recent Articles End -->
+    <!--Start pagination -->
+    <div class="pagination-area pb-45 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="single-wrap d-flex justify-content-center">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-start">
+                              <li class="page-item"><a class="page-link" href="#"><span class="flaticon-arrow roted"></span></a></li>
+                                <li class="page-item active"><a class="page-link" href="#">01</a></li>
+                                <li class="page-item"><a class="page-link" href="#">02</a></li>
+                                <li class="page-item"><a class="page-link" href="#">03</a></li>
+                              <li class="page-item"><a class="page-link" href="#"><span class="flaticon-arrow right-arrow"></span></a></li>
+                            </ul>
+                          </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End pagination  -->
+    </main>
+    
+   <footer>
+       <!-- Footer Start-->
+       <div class="footer-area footer-padding fix">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12">
+                        <div class="single-footer-caption">
+                            <div class="single-footer-caption">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="data:image/webp;base64,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" alt=""></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p>Thank you so much for visiting my K-pop news website! 💜 Your support means everything, and I truly appreciate you taking the time to explore the latest updates, comebacks, and stories from the K-pop world. Whether you’re here for breaking news, music releases, or your favorite idols, I’m grateful to have you as part of this community. Stay tuned for more exciting content, and thank you for being here!
+</p>
+                                    </div>
+                                </div>
+                                <!-- social -->
+                                <div class="footer-social">
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4  col-sm-6">
+                        <div class="single-footer-caption mt-60">
+                            <div class="footer-tittle">
+                                <h4>Newsletter</h4>
+                                <p>Heaven fruitful doesn't over les idays appear creeping</p>
+                                <!-- Form -->
+                                <div class="footer-form" >
+                                    <div id="mc_embed_signup">
+                                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                        method="get" class="subscribe_form relative mail_part">
+                                            <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
+                                            class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = ' Email Address '">
+                                            <div class="form-icon">
+                                            <button type="submit" name="submit" id="newsletter-submit"
+                                            class="email_icon newsletter-submit button-contactForm"><img src="assets/img/logo/form-iocn.png" alt=""></button>
+                                            </div>
+                                            <div class="mt-10 info"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                        <div class="single-footer-caption mb-50 mt-60">
+                            <div class="footer-tittle">
+                                <h4>Instagram Feed</h4>
+                            </div>
+                            <div class="instagram-gellay">
+                                <ul class="insta-feed">
+                                    <li><a href="#"><img src="assets/img/post/instra1.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/post/instra2.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/post/instra3.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/post/instra4.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/post/instra5.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/img/post/instra6.jpg" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- footer-bottom aera -->
+       <div class="footer-bottom-area">
+           <div class="container">
+               <div class="footer-border">
+                    <div class="row d-flex align-items-center justify-content-between">
+                        <div class="col-lg-6">
+                            <div class="footer-copy-right">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="footer-menu f-right">
+                                <ul>                             
+                                    <li><a href="#">Terms of use</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </div>
+       </div>
+       <!-- Footer End-->
+   </footer>
+   
+	<!-- JS here -->
+	
+		<!-- All JS Custom Plugins Link Here here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+		<!-- Jquery, Popper, Bootstrap -->
+		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+	    <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+		<!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <!-- Date Picker -->
+        <script src="./assets/js/gijgo.min.js"></script>
+		<!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+		<script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+        <!-- Breaking New Pluging -->
+        <script src="./assets/js/jquery.ticker.js"></script>
+        <script src="./assets/js/site.js"></script>
+
+		<!-- Scrollup, nice-select, sticky -->
+        <script src="./assets/js/jquery.scrollUp.min.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+		<script src="./assets/js/jquery.sticky.js"></script>
+        
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+        
+		<!-- Jquery Plugins, main Jquery -->	
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+        
+    </body>
+</html>
